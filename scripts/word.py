@@ -1,5 +1,20 @@
 categories = {
-    'US cities': ['New York', 'Chicago', 'Los Angeles'],
-    'Animals': ['elephant', 'tiger', 'kangaroo'],
-    'Food': ['pizza', 'sushi', 'burger']
+    'US Cities': ['austin', 'chicago', 'seattle', 'detroit', 'denver', 'boston', 'miami', 'orlando',
+                  'dallas', 'philadelphia', 'tampa', 'atlanta', 'minneapolis', 'dearborn', 'phoenix',
+                   'jacksonville', 'orlando', 'omaha', 'columbus', 'honolulu', 'albuquerque', 'tucson',
+                     'sacramento', 'tulsa'],
+    'Animals': ['elephant', 'tiger', 'kangaroo', 'horse', 'snake', 'rabbit', 'bison', 'gorilla', 'leopard',
+                 'lizard', 'squirrel', 'hippopotamus',  'crocodile', 'coyote', 'donkey', 'dolphin',
+                  'raccoon', 'reindeer', 'porcupine', 'panda',  'anteater'],
+    'Food': ['pizza', 'sushi', 'burger', 'burrito', 'potato', 'quesadilla', 'salmon', 'paella', 'poutine',
+              'lechon', 'lasagna', 'pasata', 'croissant', 'arepas', 'pierogi', 'donut', 'shawarma',
+               'kebab', 'macaron', 'steak', 'curry'],
+    'Random': ['austin', 'chicago', 'seattle', 'detroit', 'denver', 'boston', 'miami', 'orlando',
+                  'dallas', 'philadelphia', 'tampa', 'atlanta', 'minneapolis', 'dearborn', 'phoenix',
+                   'jacksonville', 'orlando', 'omaha', 'columbus', 'honolulu', 'albuquerque', 'tucson',
+                     'sacramento', 'tulsa', 'elephant', 'tiger', 'kangaroo', 'horse', 'snake', 'rabbit', 'bison', 'gorilla', 'leopard',
+                 'lizard', 'squirrel', 'hippopotamus',  'crocodile', 'coyote', 'donkey', 'dolphin',
+                  'raccoon', 'reindeer', 'porcupine', 'panda',  'anteater', 'pizza', 'sushi', 'burger', 'burrito', 'potato', 'quesadilla', 'salmon', 'paella', 'poutine',
+              'lechon', 'lasagna', 'pasata', 'croissant', 'arepas', 'pierogi', 'donut', 'shawarma',
+               'kebab', 'macaron', 'steak', 'curry' ]
 }
