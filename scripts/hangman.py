@@ -1,9 +1,6 @@
 import random;
-from word import word_list
+from word import categories
 
-
-def choose_word():
-    return random.choice(word_list)
 
 def display_word(word, guessed_letters):
     display = ""
@@ -84,7 +81,12 @@ def display_hangman(attempts):
 
 def hangman():
     print("Welcome to Hangman!")
-    word = choose_word()
+    print("Choose a category:")
+    for index, category in enumerate(categories.keys(), start=1):
+        print(f"{index}. {category}")
+    choice = int(input("Enter the number of your choice: ")) - 1
+    category = list(categories.keys())[choice]
+    word = random.choice(categories[category])
     guessed_letters = []
     attempts = 6
 
@@ -123,9 +125,3 @@ def hangman():
         print("Thanks for playing!")
 
 hangman()
-
-
-
-
-
-
